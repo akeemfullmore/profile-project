@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: rgb(4, 4, 4);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -167,10 +167,14 @@ a.social:hover {
   clear: both;
 }
 
+.gallery {
+  padding: 5px;
+}
+
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {}
   
-  .flex {
+.flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
@@ -203,5 +207,4 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
 
