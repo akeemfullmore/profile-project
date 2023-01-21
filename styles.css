@@ -151,9 +151,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -202,9 +200,9 @@ a.social:hover {
   }
 
   footer {
-    font-size: 1.3em;
+    font-size: .3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 50px auto;
   }
 
 
